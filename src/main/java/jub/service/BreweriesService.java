@@ -12,7 +12,7 @@ import java.util.List;
 
 
 public class BreweriesService implements IBreweriesService {
-    private static IBreweriesService instance= new BreweriesService();
+    private static IBreweriesService instance = new BreweriesService();
     private  EntityManagerFactory emf;
 
     private BreweriesService() {
